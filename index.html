@@ -44,7 +44,27 @@
             <h1 class="container-titulo"><b class="container-titulo-negrito">Alura</b>Books</h1>
         </div>
         <ul class="opcoes">
-            <li class="opcoes-item">Categorias</li>
+            <input type="checkbox" id="opcoes-menu" class="opcoes-botao">
+            <label for="opcoes-menu">
+                <li class="opcoes-item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Programação</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Front-end</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Business</a>
+                </li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">Design & UX</a>
+                </li>
+            </ul>
             <li class="opcoes-item"><a href="#" class="opcoes-link">Favoritos</a></li>
             <li class="opcoes-item"><a href="#" class="opcoes-link">Minha Estante</a></li>
         </ul>
@@ -103,7 +123,7 @@
         </div>
     </section>
     <section class="carrossel">
-        <h2 class="carrossel-titulo"> Novos Lançamentos</h2>
+        <h2 class="carrossel-titulo"> Mais Vendidos</h2>
         <!-- Slider main container -->
         <div class="swiper">
     <!-- Additional required wrapper -->
@@ -176,8 +196,10 @@
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
-        <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato-descricao">
+            <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
+            <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
     </section>
     <hr/>
